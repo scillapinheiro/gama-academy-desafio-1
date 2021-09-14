@@ -1,5 +1,8 @@
-<h1 align="center">Gama Academy XP #39<h1>
-<h2 align="center">Desafio #1<h2>
+<p align="center">
+  <img width="100%" style="max-width:100%" src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy">
+</p>
+
+<h1 align="center">XP39 | Desafio #1</h1>
 
 ## Scrum do Projeto
 
@@ -14,32 +17,32 @@ Estimativa: `3 horas`
 Estimativa: `2 horas`
   
 ### Sprint 2
-- HTML das páginas **Index**, **Product** e **About Us**
+- Estrutura em HTML das páginas **Index**, **Product** e **About Us**
   
 Estimativa: `6 horas`
 
 
 ### Sprint 3
-- Estilização CSS da página **Index**
+- Estilização em CSS da página **Index**
 
 Estimativa: `3 horas`
 
 ### Sprint 4
-- Estilização CSS da página **Produto**
+- Estilização em CSS da página **Product**
 
 Estimativa: `2 horas`
 
-- Estilização CSS da página **Quem Somos**
+- Estilização em CSS da página **About Us**
 
-Estimativa: `1 horas`
+Estimativa: `1 hora`
 
 ### Sprint 5
 - Responsividade para **tablet (1024px) e celular (375px)**
 
-Estimativa: `1 horas`
+Estimativa: `2 horas`
 
 ### Sprint 6
 - Testes
 - Entrega
 
-Estimativa: `1 horas`
+Estimativa: `1 hora`
