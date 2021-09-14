@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" style="max-width:100%" src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy">
+  <img width="40%" style="max-width:100%" src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy.png">
 </p>
 
 <h1 align="center">XP39 | Desafio #1</h1>
