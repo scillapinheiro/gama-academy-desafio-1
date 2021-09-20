@@ -1,0 +1,51 @@
+:root {
+    --coral: #FFAC8A;
+    --aquamarine: #73D6B8;
+    --grey: #575757;
+    --white: #FFFFFF;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+.card-title,
+.card-price {
+    text-transform: uppercase;
+}
+
+.btn-outline {
+    color: var(--coral);
+    border-color: var(--coral);
+    background-color: transparent;
+
+    transition: .3s;
+}
+
+.btn-outline:hover {
+    color: var(--white);
+    background-color: var(--coral);
+}
+
+.card-title {
+    font: 700 13px 'Open Sans';
+    color:var(--grey);
+}
+
+.card-price {
+    font: 700 18px 'Open Sans';
+    color:var(--aquamarine);
+}
+
+.btn-buy {
+    color: var(--white);
+    background-color: var(--coral);
+
+    transition: .3s;
+}
+
+.btn-buy:hover {
+    color: var(--white);
+    opacity: 0.7;
+}
