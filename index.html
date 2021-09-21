@@ -1,262 +1,272 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-    
-</head>
-<body>
-    <header>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/images/logo-boju.png" width="100%" height="50" alt="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/logo-boju.png" width="100%" height="40" alt="Logo Boju">
                 </a>
-                <div class="navbar-nav mr-5 ml-5">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                    <a class="nav-item nav-link" href="#">Planner</a>
-                    <a class="nav-item nav-link" href="#">Papelaria</a>
-                    <a class="nav-item nav-link" href="#">Promoção</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#">Planner</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#">Papelaria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#">Promoção</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="about-us.html">Quem Somos</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar">
+                        <button class="btn btn-outline my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
                 </div>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                    <button class="btn btn-outline my-2 my-sm-0" type="submit">Pesquisar</button>
-                </form>
+            </nav>
+        </header>
+        
+        <!--Carrossel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/assets/images/carrossel-1.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/assets/images/carrossel-2.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/images/carrossel-3.jpg" alt="Terceiro Slide">
+                </div>
             </div>
-        </nav>
-    </header>
-    
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="/assets/images/carrossel-1.jpg" alt="Primeiro Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/assets/images/carrossel-2.jpg" alt="Segundo Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="./assets/images/carrossel-3.jpg" alt="Terceiro Slide">
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-        </a>
-    </div>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-1.jpg" alt="Bloco caderno - Bonjour">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Bloco Caderno - Bonjour</h6>
-                        <h5 class="card-price">R$14,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
+        <!--Vitrine-->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-1.jpg" alt="Bloco caderno - Bonjour">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Bloco Caderno - Bonjour</h6>
+                                <h5 class="card-price">R$14,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-2.png" alt="Bloco caderno - Pêssego">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Bloco Caderno - Pêssego</h6>
+                                <h5 class="card-price">R$14,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-3.png" alt="Bloco caderno - Champagne Rosê">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Bloco Caderno - Champagne Rosê</h6>
+                                <h5 class="card-price">R$14,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-4.jpg" alt="Bloco caderno sem palta capa kraft">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Bloco Caderno sem Palta Capa Kraft</h6>
+                                <h5 class="card-price">R$14,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-5.webp" alt="Estojo rosê e holográfico">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Estojo rosê e holográfico</h6>
+                                <h5 class="card-price">R$46,00</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-6.png" alt="Fita corretiva - Cis Macaron Tape">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Fita corretiva - Cis Macaron Tape</h6>
+                                <h5 class="card-price">R$11,50</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-7.png" alt="Kit 6 mini canetas marca texto - Stabilo Boss">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Kit 6 mini canetas marca texto - Stabilo Boss</h6>
+                                <h5 class="card-price">R$42,20</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-8.webp" alt="kit 8 canetas tons pastéis - Stabilo Extrafina">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">kit 8 canetas tons pastéis - Stabilo Extrafina</h6>
+                                <h5 class="card-price">R$46,00</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-9.jpg" alt="Adesivo – Basic stickers corações">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Adesivo – Basic stickers corações</h6>
+                                <h5 class="card-price">R$12,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-10.jpg" alt="Adesivo big – Summer outfit collection">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Adesivo big – Summer outfit collection</h6>
+                                <h5 class="card-price">R$12,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-11.jpg" alt="Adesivo – cute shiba">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Adesivo – cute shiba</h6>
+                                <h5 class="card-price">R$12,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-12.png" alt="Binder clips vazado Rosê">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Binder clips vazado Rosê</h6>
+                                <h5 class="card-price">R$24,90</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-13.png" alt="Clips rosê gold">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Clips rosê gold</h6>
+                                <h5 class="card-price">R$16,50</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-14.png" alt="Clips abacaxi dourado">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Clips abacaxi dourado</h6>
+                                <h5 class="card-price">R$24,00</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-15.png" alt="Kit 4 Washi tapes – Flamingo Chic">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Kit 4 Washi tapes – Flamingo Chic</h6>
+                                <h5 class="card-price">R$25,50</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-16.png" alt="Kit com 10 washi tapes – Glitter">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Kit com 10 washi tapes – Glitter</h6>
+                                <h5 class="card-price">R$82,00</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-17.webp" alt="Pasta plástica com zíper">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Pasta plástica com zíper</h6>
+                                <h5 class="card-price">R$12,00</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./assets/images/card-18.webp" alt="Capa rosa coral estampa corações">
+                            <div class="card-body">
+                                <h6 class="card-title mb-2">Capa rosa coral estampa corações</h6>
+                                <h5 class="card-price">R$40,00</h5>
+                                <a href="./product-detail.html" class="btn btn-buy">Quero</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-2.png" alt="Bloco caderno - Pêssego">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Bloco Caderno - Pêssego</h6>
-                        <h5 class="card-price">R$14,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-3.png" alt="Bloco caderno - Champagne Rosê">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Bloco Caderno - Champagne Rosê</h6>
-                        <h5 class="card-price">R$14,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-4.jpg" alt="Bloco caderno sem palta capa kraft">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Bloco Caderno sem Palta Capa Kraft</h6>
-                        <h5 class="card-price">R$14,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-5.webp" alt="Estojo rosê e holográfico">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Estojo rosê e holográfico</h6>
-                        <h5 class="card-price">R$46,00</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-6.png" alt="Fita corretiva - Cis Macaron Tape">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Fita corretiva - Cis Macaron Tape</h6>
-                        <h5 class="card-price">R$11,50</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-7.png" alt="Kit 6 mini canetas marca texto - Stabilo Boss">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Kit 6 mini canetas marca texto - Stabilo Boss</h6>
-                        <h5 class="card-price">R$42,20</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-8.webp" alt="kit 8 canetas tons pastéis - Stabilo Extrafina">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">kit 8 canetas tons pastéis - Stabilo Extrafina</h6>
-                        <h5 class="card-price">R$46,00</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-9.jpg" alt="Adesivo – Basic stickers corações">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Adesivo – Basic stickers corações</h6>
-                        <h5 class="card-price">R$12,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-10.jpg" alt="Adesivo big – Summer outfit collection">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Adesivo big – Summer outfit collection</h6>
-                        <h5 class="card-price">R$12,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-11.jpg" alt="Adesivo – cute shiba">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Adesivo – cute shiba</h6>
-                        <h5 class="card-price">R$12,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-12.png" alt="Binder clips vazado Rosê">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Binder clips vazado Rosê</h6>
-                        <h5 class="card-price">R$24,90</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-13.png" alt="Clips rosê gold">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Clips rosê gold</h6>
-                        <h5 class="card-price">R$16,50</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-14.png" alt="Clips abacaxi dourado">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Clips abacaxi dourado</h6>
-                        <h5 class="card-price">R$24,00</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-15.png" alt="Kit 4 Washi tapes – Flamingo Chic">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Kit 4 Washi tapes – Flamingo Chic</h6>
-                        <h5 class="card-price">R$25,50</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-16.png" alt="Kit com 10 washi tapes – Glitter">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Kit com 10 washi tapes – Glitter</h6>
-                        <h5 class="card-price">R$82,00</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-17.webp" alt="Pasta plástica com zíper">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Pasta plástica com zíper</h6>
-                        <h5 class="card-price">R$12,00</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./assets/images/card-18.webp" alt="Capa rosa coral estampa corações">
-                    <div class="card-body">
-                        <h6 class="card-title mb-2">Capa rosa coral estampa corações</h6>
-                        <h5 class="card-price">R$40,00</h5>
-                        <a href="#" class="btn btn-buy">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <footer>
-        © 2021 Boju. Todos os direitos reservados.
-    </footer>
-</body>
-
-
+        <footer>
+            © 2021 Boju. Todos os direitos reservados.
+        </footer>
+    </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 </html>
