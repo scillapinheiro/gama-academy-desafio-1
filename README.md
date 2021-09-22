@@ -1,12 +1,42 @@
 <p align="center">
-  <img width="50%" style="max-width:100%" src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy.png">
+  <img src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy.png" width="40%">
 </p>
 
-<h1 align="center">XP39 | Desafio #1</h1>
+<p align="center">
+  <a href="#-scrum">Scrum</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-site-de-demonstração">Site de Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-## Scrum do Projeto
+<p align="center">
+  <img alt="Grama XP 39" src="https://img.shields.io/static/v1?label=xp&message=39&color=success&labelColor=grey">
+  
+  <img alt="Stack Hacker" src="https://img.shields.io/static/v1?label=stack&message=hacker&color=success&labelColor=grey">
+  
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&labelColor=grey">
+</p>
 
-### Sprint 1
+<p align="center">
+  <img src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/boju-mockup.png" width="100%">
+</p>
+
+<h1 align="center">Desafio Individual #1</h1>
+
+Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês. A entregas foram divididas em 2 partes:
+
+1. Criação e agrupamentos das estórias em sprints com o tempo estimado para cada uma;
+
+2. Protótipo do site responsivo com 3 páginas:
+   - Vitrine virtual de produtos;
+   - Página com detalhes de um determinado produto e
+   - Página institucional.
+
+---
+
+## 📅 Scrum
+
 - Criar layout do site
 
 Estimativa: `3 horas`
@@ -17,10 +47,9 @@ Estimativa: `3 horas`
 Estimativa: `2 horas`
   
 ### Sprint 2
-- Estrutura em HTML das páginas **Index**, **Product** e **About Us**
+- Estrutura em HTML das páginas **Index**, **Product Detail** e **About Us**
   
 Estimativa: `6 horas`
-
 
 ### Sprint 3
 - Estilização em CSS da página **Index**
@@ -28,7 +57,7 @@ Estimativa: `6 horas`
 Estimativa: `3 horas`
 
 ### Sprint 4
-- Estilização em CSS da página **Product**
+- Estilização em CSS da página **Product Detail**
 
 Estimativa: `2 horas`
 
@@ -46,3 +75,21 @@ Estimativa: `2 horas`
 - Entrega
 
 Estimativa: `1 hora`
+
+## 💻 Projeto
+Boju é uma loja virtual fictícia para quem ama bullet journals.
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+## 👀 Site de Demonstração
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
+Você pode acessar o site <a href="https://gama-academy-desafio-1.netlify.app/">aqui.</a>
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
