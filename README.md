@@ -26,9 +26,9 @@
 
 Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês. A entregas foram divididas em 2 partes:
 
-1. Criação e agrupamentos das estórias em sprints com o tempo estimado para cada uma;
+1. Criação e agrupamentos das estórias em sprints com o tempo estimado para cada uma
 
-2. Protótipo do site responsivo com 3 páginas:
+2. Protótipo do site responsivo com 3 páginas
    - Vitrine virtual de produtos;
    - Página com detalhes de um determinado produto e
    - Página institucional.
