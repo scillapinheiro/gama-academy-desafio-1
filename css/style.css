@@ -35,8 +35,8 @@ h2 {
 
 .card-title,
 .display-5,
-.lead,
-.title{
+.title,
+.payments {
     color:var(--grey);
 }
 
@@ -62,7 +62,8 @@ h2 {
     font: 700 26px 'Open Sans';
 }
 
-.lead {
+.description,
+.about-us-text {
     font: 400 14px 'Open Sans';
 }
 
