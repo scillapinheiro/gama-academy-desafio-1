@@ -24,7 +24,7 @@
 
 <h1 align="center">Desafio Individual #1</h1>
 
-Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês. A entregas foram divididas em 2 partes:
+Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês. A entregas foram divididas em 2 etapas:
 
 1. Criação e agrupamentos das estórias em sprints com o tempo estimado para cada uma.
 
@@ -76,6 +76,8 @@ Estimativa: `2 horas`
 - Entrega
 
 Estimativa: `1 hora`
+
+---
 
 ## 💻 Projeto
 Boju é uma loja virtual fictícia para quem ama bullet journals.
