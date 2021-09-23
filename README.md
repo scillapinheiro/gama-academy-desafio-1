@@ -91,7 +91,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 👀 Site de Demonstração
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-Você pode acessar o site <a href="https://gama-academy-desafio-1.netlify.app/">aqui.</a>
+Você pode acessar o site [aqui.](https://gama-academy-desafio-1.netlify.app/)
 
 ## 📝 Licença
 
