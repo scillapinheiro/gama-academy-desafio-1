@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="#-scrum">Scrum</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-site-de-demonstração">Site de Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
@@ -22,15 +22,15 @@
   <img src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/boju-mockup.png" width="100%">
 </p>
 
-<h1 align="center">Desafio Individual #1</h1>
+<h1 align="center">Desafio #1</h1>
 
-Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês. A entregas foram divididas em 2 etapas:
+Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês. As entregas foram divididas em 2 etapas:
 
 1. Criação e agrupamentos das estórias em sprints com o tempo estimado para cada uma.
 
 2. Protótipo do site responsivo com 3 páginas:
    - Vitrine virtual de produtos;
-   - Página com detalhes de um determinado produto e
+   - Página com detalhes de um determinado produto;
    - Página institucional.
 
 ---
