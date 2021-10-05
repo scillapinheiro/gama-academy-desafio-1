@@ -24,10 +24,16 @@
 
 <h1 align="center">Desafio #1</h1>
 
-Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês. As entregas foram divididas em 2 etapas:
+Objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês:
+   - Metodologias Ágeis;
+   - HTML5;
+   - CSS5;
+   - Bootstrap 4.
+
+As entregas foram divididas em 2 etapas:
 
 #### :heavy_check_mark: Etapa 1:
-Criação e agrupamentos das estórias em sprints com o tempo estimado para cada uma.
+Criação e agrupamento das estórias em sprints com o tempo estimado para cada uma.
 
 #### :heavy_check_mark: Etapa 2:
 Protótipo do site responsivo com 3 páginas:
